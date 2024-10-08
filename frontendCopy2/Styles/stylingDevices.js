@@ -1,0 +1,110 @@
+import { StyleSheet } from "react-native";
+
+export const devices = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+  backgroundImage: {
+    flex: 1,
+    resizeMode: "cover",
+    justifyContent: "center",
+    zIndex: -1,
+  },
+  overlay: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: "rgba(32, 21, 60, 0.5) 100%)",
+  },
+  content: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    padding: 20,
+  },
+  title: {
+    marginTop: 50,
+    fontSize: 58,
+    fontWeight: "bold",
+    color: "#FFF",
+    letterSpacing: -2.2,
+  },
+  deviceGrid: {
+    marginTop: 60,
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-around',
+  },
+  deviceCard: {
+    width: 150,
+    height: 150,
+    backgroundColor: '#A4AE9E',
+    borderRadius: 10,
+    paddingTop: 15 ,
+    marginBottom: 20,
+    justifyContent: 'center',
+    alignItems: 'center',
+    elevation: 5,
+  },
+  deviceName: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    marginBottom: 10,
+  },
+  deviceControls: {
+    padding: 2,
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  deviceState: {
+    marginLeft: 10,
+  },
+  button: {
+    backgroundColor: '#6C63FF',
+    borderRadius: 20,
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    marginHorizontal: 5,
+    elevation: 3, 
+    shadowColor: '#000', 
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+  },
+  buttonText: {
+    color: '#FFF',
+    fontWeight: 'bold',
+    fontSize: 16,
+  },
+  buttonOn: {
+    backgroundColor: '#6C63FF',
+    borderRadius: 20,
+    paddingVertical: 5,
+    paddingHorizontal: 10,
+    marginHorizontal: 5,
+    elevation: 3, 
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+  },
+  buttonOff: {
+    backgroundColor: '#6C63FF',
+    borderRadius: 20,
+    paddingVertical: 5,
+    paddingHorizontal: 10,
+    marginHorizontal: 5,
+    elevation: 3,
+    shadowColor: '#000', 
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+  },
+});
