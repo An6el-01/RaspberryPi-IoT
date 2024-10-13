@@ -7,8 +7,8 @@ const fs = require('fs');
 const s3Client = new S3Client({
   region: 'us-east-1',
   credentials: {
-    accessKeyId: 'REMOVED_SECRET',
-    secretAccessKey: 'REMOVED_SECRET'
+    accessKeyId: '***',
+    secretAccessKey: '***'
   }
 });
 
