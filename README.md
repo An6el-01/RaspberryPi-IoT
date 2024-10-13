@@ -1,7 +1,7 @@
 # Raspberry Pi IoT System
 This project involves the development of a fully functional IoT system based on a Raspberry Pi 4b microcontroller. It utilizes MQTT for communication between the Raspberry Pi and various smart devices, enabling control through a cross-platform mobile application built using React Native with Expo. The backend facilitates seamless communication between the mobile app and the Raspberry Pi through Node.js.
 
-## Key Feauters:
+## Key Features:
 1) Raspberry Pi as MQTT Broker:
    - Hosts the local MQTT broker for communication with devices on the network.
    - Publishes and receives MQTT messages to and from smart plugs.
